@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	.main{
+		width: 100%;
+	}
+	.second:nth-child(3){
+		border: 2px solid black;
+	}
+	</style>
+</head>
+<body>
+<script type="text/javascript">
+	//Sual 01
+  // var y = 1;
+  // if (function f(){}) {
+  //    y += typeof f;
+  // } 
+  // console.log(y);//=1undefined
+
+  //Sual 02
+
+//   var myArr =  ['a','b','c','d','e','f'];
+  
+  	
+// document.write(myArr.slice(5,0));
+
+//Sual 03 
+	// var bar = true;
+	// console.log(bar + 0);  // = 1; cunki bar=true, true=1, 1+0=1; 
+	// console.log(bar + "xyz");//= truexyz, cunki "xyz"-stringdir, strigler booleanin yanina "yapishir";
+	// console.log(bar + true);//=2; cunki true=1, 1+1=2;
+	// console.log(bar + false);//1; true=1, false=0, 1+0=1;
+
+	//Sual 04 -Asagıdakı kodun neticesi nedir ve sebebini izah edin
+
+	// var salary = "1000$";
+
+ // (function () {
+ //     console.log("Original salary was " + salary);
+
+ //     var salary = "5000$";
+
+ //     console.log("My New Salary " + salary);
+ // })(); // =Original salary was undefined // My New Salary 5000$; var salary="1000$" funksiyadan once verildiyi ucun, neticede undefined gosterir. var salary = "5000$" funksiyanin daxilinde qeyd edildiyi ucun, netice My New Salary 5000$-dir.
+
+ //Sual 05 - 
+
+
+    // Bu verilenlere gore istifadeci terefinden girilen reqeme esasen divler yaranacaq ekranda ve bu divler 4 sütün seklinde ekranda gorunecek.Ekrandakı divlerin her setirde 3.cu yerde duran div border:2px solid red  xususiyyetine sahib olacaq.(bu meselen constructor function istifade olunaraq yazılacaq.)
+		// var size=[[width],[height]];
+		// var color=[];
+		// var vid=function(width,height,color,say,margin,border){
+		// 	this.width=width,
+		// 	this.height=height,
+		// 	this.color=color,
+		// 	this.margin=margin,
+		// 	this.border=border,
+		// 	this.call=function(){
+		// 		document.write("<div class='main'>");
+		// 		for (var i=0; i<say; i++){
+		// 		document.write("<div class='second' style= 'width:"+this.width+"px; height:"+this.height+"px; background:"+this.color+"; display: inline-block; margin:" +this.margin+"px;'></div>");}
+		// 		document.write("</div>");
+		// 	}
+		// }
+		// var vid2= new vid(250,200,"red",15,25);
+		// vid2.call();
+
+</script>
+
+</body>
+</html>
